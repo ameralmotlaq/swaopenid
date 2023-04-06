@@ -3,11 +3,7 @@
       {
         "route": "/admin*",
         "allowedRoles": ["authenticated"]
-      },  
-    {
-        "route": "/*",
-        "allowedRoles": ["anonymous"]
-      },           
+      },                
         {
           "route": "/login",
           "rewrite": "/.auth/login/auth0"
