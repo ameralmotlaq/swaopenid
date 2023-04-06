@@ -1,15 +1,5 @@
 {
-    "routes": [     
-        {
-          "route": "/admin/*",
-          "allowedRoles": ["authenticated"]
-        },
-        {
-          "route": "/images/*",
-          "headers": {
-            "cache-control": "must-revalidate, max-age=15770000"
-          }
-        },
+    "routes": [             
         {
           "route": "/login",
           "rewrite": "/.auth/login/auth0"
